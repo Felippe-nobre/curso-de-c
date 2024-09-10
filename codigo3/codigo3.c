@@ -5,12 +5,13 @@ int main(){
     x = 123;
     int y = 456;
     int idade = 21;
-    //float = valores quebardos
+   
     float decimal = 2.05;
-    //char = carcter unicos
+     //float = valores quebardos.%f
     char media = 'C';
-    // char  [] = serve para amarezenar uma string, já que string é orientada a objeto e em c não possui orientção a obejto
+    //char = carcter unicos,%c
     char nome[] = "Felippe";
+     // char  [] = serve para amarezenar uma string, já que string é orientada a objeto e em c não possui orientção a obejto.%s
     printf("Ola %s\n", nome);
     printf("Voce tem %d anos de idade\n", idade );
     printf("sua media  %c \n",media);
