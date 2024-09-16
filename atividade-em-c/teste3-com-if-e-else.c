@@ -30,10 +30,6 @@ int main(){
     printf("Resultado: %.0lf\n", resultado );
    }else{
     printf("Erro...!");
-   }
-   
-   
-   
-   
+   } 
     return 0;
 }
