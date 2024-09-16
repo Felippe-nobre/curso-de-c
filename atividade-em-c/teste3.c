@@ -4,15 +4,14 @@ int main(){
     double num1, num2, resultado;
     char operacao;
     
-
+    printf(" qual simbolo vai ser a conta (+ - * /):");
+    scanf(" %c",&operacao);
     printf("Informe o primeiro número: ");
     scanf("%lf", &num1);
-
     printf("Informe o segundo número: ");
     scanf("%lf", &num2);
 
-    printf(" qual simbolo vai ser a conta (+ - * /):");
-    scanf(" %c",&operacao);
+    
 
     switch (operacao)
     {
