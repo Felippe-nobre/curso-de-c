@@ -9,7 +9,7 @@ int main(){
     printf("Informe o primeiro número: ");
     scanf("%lf", &num1);
     printf("Informe o segundo número: ");
-    scanf("%lf", &num2);
+    scanf("%lf", &num2 );
 
     
 
