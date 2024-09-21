@@ -6,7 +6,7 @@ int main(){
     printf("\n qual simbolo vai ser a conta (+ - * /):");
     scanf("%c",&operacao);
 
-    printf("Informe o primeiro nÃºmero: ");
+    printf("Informe o primeiro numero: ");
     scanf("%lf", &num1);
 
     printf("Informe o segundo nÃºmero: ");
