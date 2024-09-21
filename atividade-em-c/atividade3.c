@@ -28,10 +28,16 @@ int main(){
     printf("Resultado: %.0lf\n", resultado );
         break;
         case '/':
-    resultado = num1 / num2;
-    printf("Resultado: %.0lf\n", resultado );
+        if (num2!=0)
+        {
+            resultado = num1 / num2;
+        printf("Resultado: %.0lf\n", resultado );
+        }else{
+            printf("Erro: divisão por zero invalida.\n");
+        }
         break;
     default:
+        printf("Erro...!");
         break;
     }
     return 0;

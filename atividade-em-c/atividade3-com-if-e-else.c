@@ -25,11 +25,20 @@ int main(){
    resultado = num1 * num2;
     printf("Resultado: %.0lf\n", resultado );
    }else if (operacao == '/')
+   {if (num2!=0)
    {
-    resultado = num1 / num2;
+     resultado = num1 / num2;
     printf("Resultado: %.0lf\n", resultado );
+   }else
+   {
+    printf("Erro... a divisao por zero invalida");
+   }
    }else{
     printf("Erro...!");
-   } 
+   }
+   
+   
+   
+    
     return 0;
 }
