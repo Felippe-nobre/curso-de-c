@@ -19,7 +19,5 @@ int main() {
         printf("Fatorial de %d é %.lf\n", num, fatorial);
     
     }
-    
-    
     return 0;
 }
