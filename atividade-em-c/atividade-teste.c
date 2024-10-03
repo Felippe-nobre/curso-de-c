@@ -2,7 +2,7 @@
 
 int main() {
     int num, i;
-    double fatorial = 1;
+    float fatorial = 1;
     printf("Digite um número de 0 a 10: ");
     scanf("%d", &num);
 
@@ -16,7 +16,7 @@ int main() {
         for (i = 1; i <= num; i++) {
             fatorial *= i;
         }
-        printf("Fatorial de %d é %.lf\n", num, fatorial);
+        printf("Fatorial de %d é %.f\n", num, fatorial);
     
     }
     return 0;
