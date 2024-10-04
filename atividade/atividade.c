@@ -22,7 +22,10 @@ int main(){
 
     while (status){
     printf("\e[1;1H\e[2J");
-    
+
+        printf("1 - Novo pedido");
+        printf("\n2 - Lista de pedido");
+        printf("\n3 - Sair");
         printf("\nescolha uma opecao: ");
         int opecoes;
         scanf("%d", &opecoes);
@@ -31,8 +34,11 @@ int main(){
         {
         case 1:
         printf("\e[1;1H\e[2J");
-            Pedidos[id]. Id = id;
+           
             printf(" pedido Id: %d \n", id + 1);
+            printf("-------------------------------------------");
+             Pedidos[id]. Id = id;
+            
             float total = 0;
 
             for (int i = 0; i < 99; i++)
@@ -65,7 +71,7 @@ int main(){
                     break;
                 }
                 
-                
+                printf("-------------------------------------------");
             }
             Pedidos[id].Total = total;
             id++;
@@ -78,7 +84,8 @@ int main(){
                 printf("\nPedidos Id: %d", i + 1);
                for (int j = 0; j < 99; j++)
                {
-                printf("\nProduto #%d", j + 1);
+                printf("\n==================================\n");
+                printf("\n#Produto %d", j + 1);
 
                 printf("\nProdutos nome: %s", Pedidos[i].Produtos[j].Nome);
                 printf("\nProdutos preco: %.f",Pedidos[i].Produtos[j].Preco); 
@@ -90,7 +97,9 @@ int main(){
                 }
                 
                }
+               printf("\n==================================\n");
                printf("\nTotal: %.f", Pedidos[i].Total);
+                printf("\n==================================\n");
                
             }
             printf("\nPressione uma tecla para continuar...");
