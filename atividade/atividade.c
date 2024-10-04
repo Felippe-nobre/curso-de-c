@@ -32,7 +32,7 @@ int main(){
         case 1:
         printf("\e[1;1H\e[2J");
             Pedidos[id]. Id = id;
-            printf("\n pedido Id: %d \n", id + 1);
+            printf(" pedido Id: %d \n", id + 1);
             float total = 0;
 
             for (int i = 0; i < 99; i++)
@@ -57,7 +57,7 @@ int main(){
 
                 total += preco * quantidade;
 
-                printf("Voce deseja adicionar mais produtos? [y/n]");
+                printf("\nVoce deseja adicionar mais produtos? [y/n]");
                 char novoProduto;
                 scanf(" %c", &novoProduto);
                 if (novoProduto != 'y')
@@ -75,10 +75,10 @@ int main(){
         printf("\e[1;1H\e[2J");
             for (int i = 0; i < id; i++)
             {
-                printf("Pedidos Id: %d", i + 1);
+                printf("\nPedidos Id: %d", i + 1);
                for (int j = 0; j < 99; j++)
                {
-                printf("Produto #%d", j + 1);
+                printf("\nProduto #%d", j + 1);
 
                 printf("\nProdutos nome: %s", Pedidos[i].Produtos[j].Nome);
                 printf("\nProdutos preco: %.f",Pedidos[i].Produtos[j].Preco); 
