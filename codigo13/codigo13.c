@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-
 int main(){
     int idade;
 
@@ -20,8 +18,5 @@ int main(){
     else{
         printf("Voce nao ta autorizado");
     }
-    
-
-
     return 0;
 }
