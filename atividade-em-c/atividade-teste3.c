@@ -7,7 +7,12 @@ int main(){
 
     printf("Digite um numero de 1 a 12: ");
     scanf("%d", &mes);
-
+ if (mes <= 0 || mes >=13)
+    {
+        printf("Numeor errado .... porfavor digite numero de 1 a 12\n");
+        printf("Tente novamente:");
+        scanf("%d",&mes);
+    } 
     switch (mes)
     {
     case 1:
@@ -59,7 +64,7 @@ int main(){
 
     
     default:
-    
+   
     
         break;
     }
