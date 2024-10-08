@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-    FILE *pF = fopen("C:\\Users\\Usuario\\OneDrive\\Área de Trabalho\\teste.txt","w");
+    FILE *pF = fopen("C:\\\\Users\\\\Usuario\\\\OneDrive\\\\Área de Trabalho\\\\teste.txt","w");
 
     fprintf(pF,"Partick Estrela");
 
